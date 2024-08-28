@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 1px var(--Grayscale-Grayscale-50, #ebedf0);
+    background: var(--Grayscale-Grayscale-60, #f5f7fa);
+    transition:
+        background 0.2s ease-in-out,
+        transform 0.2s ease-in-out,
+        color 0.2s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        background: var(--Grayscale-Grayscale-50, #ebedf0);
+    }
+    &:active {
+        transform: scale(0.98);
+    }
+}
+
+.selected {
+    background: var(--Colors-Green, #00b887);
+    border: none;
+    color: var(--Grayscale-Grayscale-70, #ffffff);
+    box-shadow: none;
+    transition:
+    background 0.2s ease-in-out,
+    transform 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+    &:hover {
+        background: var(--Colors-Green-Darker, #00b887);
+    }
+}

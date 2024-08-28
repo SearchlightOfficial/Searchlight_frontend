@@ -1,0 +1,69 @@
+.layout {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Grayscale-Grayscale-60, #f5f7fa);
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    padding: 32px 8px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.icon-button {
+    display: flex;
+    width: 52px;
+    height: 52px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 1px var(--Grayscale-Grayscale-50, #ebedf0);
+    background: var(--Grayscale-Grayscale-70, #fff);
+    cursor: pointer;
+    transition:
+        background 0.2s ease-in-out,
+        transform 0.2s ease-in-out;
+    &:hover {
+        background: var(--Grayscale-Grayscale-50, #f5f7fa);
+    }
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+.header-icons {
+    display: flex;
+    gap: 4px;
+}
+
+.hospital-container {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+    flex-wrap: wrap;
+    overflow: scroll;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}

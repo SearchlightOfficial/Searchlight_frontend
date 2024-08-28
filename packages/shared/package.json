@@ -1,0 +1,19 @@
+{
+  "name": "@searchlight/shared",
+  "packageManager": "yarn@4.3.1",
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "next": "^14.2.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.77.8",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "^22.5.0",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5"
+  }
+}

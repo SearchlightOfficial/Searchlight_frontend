@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    width: 392px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 12px;
+    border: 1px solid var(--Grayscale-Grayscale-50, #ebedf0);
+    background: var(--Grayscale-Grayscale-70, #fff);
+}
+
+.card-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.button-group {
+    display: flex;
+    gap: 3px;
+}
+
+.card-top-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        cursor: pointer;
+        filter: invert(0.5);
+    }
+}
+
+.card-bottom {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "searchlight-frontend-core",
+  "packageManager": "yarn@4.3.1",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  },
+  "dependencies": {
+    "sass": "^1.77.8"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.1",
+    "typescript": "^5.5.4"
+  }
+}
